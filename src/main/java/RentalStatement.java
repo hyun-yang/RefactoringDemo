@@ -41,16 +41,10 @@ public class RentalStatement {
   }
 
   private String makeRentalLine(Rental rental) {
-//    double thisAmount = rental.determineAmount();
-//    frequentRenterPoints += rental.determineFrequentRenterPoints();
-//    totalAmount += thisAmount;
-//
-//    return formatRentalLine(rental, thisAmount);
     throw new RuntimeException("Implement makeRentalLine");
   }
 
   private String formatRentalLine(Rental rental, double thisAmount) {
-//    return "\t" + rental.getTitle() + "\t" + thisAmount + "\n";
     throw new RuntimeException("Implement formatRentalLine");
   }
 
